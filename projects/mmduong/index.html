@@ -1,0 +1,87 @@
+<!doctype html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=1080,height=1920"><script src="gsap.min.js"></script><style>
+@font-face{font-family:BeVietnam;src:url('BeVietnamPro-ExtraBold.ttf');font-weight:800}
+*{box-sizing:border-box;margin:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#101116;font-family:BeVietnam,sans-serif;color:#fff}
+#main{position:relative;width:1080px;height:1920px;overflow:hidden}
+#footage{position:absolute;inset:0;transform-origin:48% 48%;z-index:0}video{width:1080px;height:1920px;object-fit:cover}
+.matte{position:absolute;left:0;width:1080px;pointer-events:none;z-index:1}
+.top-matte{top:0;height:560px;background:linear-gradient(to bottom,#101116 0%,#101116 76%,rgba(16,17,22,0) 100%)}
+.bottom-matte{top:1210px;height:710px;background:linear-gradient(to bottom,rgba(16,17,22,0) 0%,#101116 10%,#101116 100%)}
+.headline{position:absolute;inset:0;z-index:3;width:100%;height:430px;padding:165px 130px 20px 80px;display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center}
+.eyebrow{font-size:37px;line-height:1.2;letter-spacing:3px;color:#fff;text-shadow:0 3px 5px #101116}
+.main-title{font-size:69px;line-height:1.13;letter-spacing:-2px;color:#ffe66b;-webkit-text-stroke:1px #101116;paint-order:stroke fill;text-shadow:0 4px 0 #101116;font-variant-numeric:tabular-nums}
+.underline{width:130px;height:5px;background:#ffe66b;border-radius:3px;margin-top:5px}
+.caption{position:absolute;left:0;top:1290px;width:100%;height:185px;padding:0 140px 0 80px;display:flex;align-items:center;justify-content:center;z-index:3;text-align:center}
+.caption-inner{max-width:860px;font-size:57px;line-height:1.22;letter-spacing:-1.4px;-webkit-text-stroke:2px #101116;paint-order:stroke fill;text-shadow:0 4px 0 #101116}
+.line{display:block}.accent{color:#ffe66b}#cap11 .line{font-size:49px}
+.foot{position:absolute;left:0;top:1520px;width:100%;height:185px;padding:10px 145px 10px 85px;z-index:3}
+.foot-inner{width:100%;height:100%;display:flex;align-items:center;justify-content:center;gap:24px}
+svg{width:140px;height:150px;flex-shrink:0;fill:none;stroke:#ffe66b;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.foot-copy{max-width:590px;display:flex;flex-direction:column;gap:12px}
+.foot-title{font-size:37px;line-height:1.2;color:#ffe66b}.foot-sub{font-size:24px;line-height:1.35;color:#c5c7cc;letter-spacing:.5px}
+.meter{position:absolute;left:80px;right:140px;top:1755px;height:3px;background:#303238;z-index:3}.meter-fill{height:100%;width:100%;background:#ffe66b;transform-origin:left}
+</style></head><body><div id="main" data-composition-id="main" data-start="0" data-duration="19.1" data-width="1080" data-height="1920" data-fps="30">
+<div id="footage" data-layout-ignore><video id="video" class="clip" data-start="0" data-duration="19.1" data-track-index="0" src="graded.mp4" muted playsinline></video></div>
+<audio id="audio" data-start="0" data-duration="19.1" data-track-index="1" src="mix.wav" data-volume="1"></audio>
+<div class="matte top-matte" data-layout-ignore></div><div class="matte bottom-matte" data-layout-ignore></div>
+<div id="cap0" class="clip caption" data-start="0.1" data-duration="2.020" data-track-index="3"><div class="caption-inner">EM HAI LẺ BẢY,<span class="line accent">ĐANG SINH VIÊN.</span></div></div><div id="cap1" class="clip caption" data-start="2.12" data-duration="1.240" data-track-index="3"><div class="caption-inner">EM ĐANG CẦN V*Y KHOẢNG<span class="line accent">10 TRIỆU.</span></div></div><div id="cap2" class="clip caption" data-start="3.36" data-duration="0.960" data-track-index="3"><div class="caption-inner">BÊN ANH CÓ HỖ TRỢ<span class="line accent">KHÔNG Ạ?</span></div></div><div id="cap3" class="clip caption" data-start="4.9" data-duration="0.520" data-track-index="3"><div class="caption-inner">OK BẠN.</div></div><div id="cap4" class="clip caption" data-start="6.7" data-duration="0.600" data-track-index="3"><div class="caption-inner">CHỈ CẦN CÁC BẠN CÓ</div></div><div id="cap5" class="clip caption" data-start="7.3" data-duration="0.860" data-track-index="3"><div class="caption-inner">CĂN CƯỚC CÔNG DÂN,</div></div><div id="cap6" class="clip caption" data-start="8.16" data-duration="0.640" data-track-index="3"><div class="caption-inner">KHÔNG N* X*U;</div></div><div id="cap7" class="clip caption" data-start="9.52" data-duration="0.830" data-track-index="3"><div class="caption-inner">THÌ MÌNH ĐỀU CÓ THỂ</div></div><div id="cap8" class="clip caption" data-start="10.35" data-duration="0.750" data-track-index="3"><div class="caption-inner">HỖ TRỢ ĐƯỢC<span class="line accent">CHO CÁC BẠN.</span></div></div><div id="cap9" class="clip caption" data-start="11.3" data-duration="1.680" data-track-index="3"><div class="caption-inner">BÊN MÌNH KHÔNG CẦN<span class="line accent">CHỨNG MINH TÀI CHÍNH,</span></div></div><div id="cap10" class="clip caption" data-start="12.98" data-duration="1.000" data-track-index="3"><div class="caption-inner">KHÔNG THẨM ĐỊNH<span class="line accent">NGƯỜI THÂN.</span></div></div><div id="cap11" class="clip caption" data-start="14.1" data-duration="1.880" data-track-index="3"><div class="caption-inner">HỒ SƠ ĐẬU SẼ ĐƯỢC<span class="line accent">GIẢI NGÂN NGAY TRONG NGÀY.</span></div></div><div id="cap12" class="clip caption" data-start="16.15" data-duration="1.000" data-track-index="3"><div class="caption-inner">NẾU NHƯ CÁC BẠN<span class="line accent">CÓ NHU CẦU</span></div></div><div id="cap13" class="clip caption" data-start="17.15" data-duration="0.580" data-track-index="3"><div class="caption-inner">CẦN V*Y THÌ HÃY</div></div><div id="cap14" class="clip caption" data-start="17.73" data-duration="0.650" data-track-index="3"><div class="caption-inner">NHẮN TIN CHO MÌNH</div></div><div id="cap15" class="clip caption" data-start="18.38" data-duration="0.600" data-track-index="3"><div class="caption-inner">Ở PHÍA BÊN DƯỚI.</div></div><div id="head0" class="clip headline" data-start="0.05" data-duration="4.500" data-track-index="4"><div class="eyebrow">SINH VIÊN</div><div class="main-title">CẦN 10 TRIỆU?</div><div class="underline"></div></div><div id="head1" class="clip headline" data-start="5.7" data-duration="3.440" data-track-index="4"><div class="eyebrow">ĐIỀU KIỆN</div><div class="main-title">HỖ TRỢ</div><div class="underline"></div></div><div id="head2" class="clip headline" data-start="9.15" data-duration="4.770" data-track-index="4"><div class="eyebrow">THÔNG TIN</div><div class="main-title">HỒ SƠ</div><div class="underline"></div></div><div id="head3" class="clip headline" data-start="13.92" data-duration="2.130" data-track-index="4"><div class="eyebrow">HỒ SƠ ĐẬU</div><div class="main-title">NGAY TRONG NGÀY</div><div class="underline"></div></div><div id="head4" class="clip headline" data-start="16.12" data-duration="2.980" data-track-index="4"><div class="eyebrow">NHẮN TIN</div><div class="main-title">ĐỂ ĐƯỢC TƯ VẤN</div><div class="underline"></div></div><div id="foot0" class="clip foot" data-start="0.15" data-duration="4.400" data-track-index="5"><div class="foot-inner"><svg viewBox="0 0 190 170" aria-hidden="true"><circle cx="85" cy="75" r="50"/><path d="M85 43v64M101 52c-22-16-47 5-24 19l18 10c24 16-2 38-23 18"/><path d="M138 111l31 17-29 16"/></svg><div class="foot-copy"><div class="foot-title">10 TRIỆU</div><div class="foot-sub">CÂU HỎI TỪ NGƯỜI XEM</div></div></div></div><div id="foot1" class="clip foot" data-start="7.3" data-duration="1.500" data-track-index="5"><div class="foot-inner"><svg viewBox="0 0 190 170" aria-hidden="true"><rect x="21" y="30" width="150" height="108" rx="12"/><circle cx="61" cy="68" r="15"/><path d="M38 113q22-30 45 0M105 64h43M105 85h34M105 106h43"/></svg><div class="foot-copy"><div class="foot-title">CĂN CƯỚC</div><div class="foot-sub">CÔNG DÂN</div></div></div></div><div id="foot2" class="clip foot" data-start="11.08" data-duration="2.840" data-track-index="5"><div class="foot-inner"><svg viewBox="0 0 190 170" aria-hidden="true"><path d="M48 15h72l29 29v106H48zM120 15v30h29M70 72h55M70 94h40"/><path d="M83 122l14 13 30-35"/></svg><div class="foot-copy"><div class="foot-title">THÔNG TIN HỒ SƠ</div><div class="foot-sub">THEO NỘI DUNG NGƯỜI NÓI</div></div></div></div><div id="foot3" class="clip foot" data-start="14.1" data-duration="1.880" data-track-index="5"><div class="foot-inner"><svg viewBox="0 0 190 170" aria-hidden="true"><path d="M48 15h72l29 29v106H48zM120 15v30h29M70 72h55M70 94h40"/><path d="M83 122l14 13 30-35"/></svg><div class="foot-copy"><div class="foot-title">HỒ SƠ ĐẬU</div><div class="foot-sub">ĐIỀU KIỆN TRƯỚC GIẢI NGÂN</div></div></div></div><div id="foot4" class="clip foot" data-start="16.12" data-duration="2.980" data-track-index="5"><div class="foot-inner"><svg viewBox="0 0 190 170" aria-hidden="true"><path d="M26 30h139v94H88l-34 29v-29H26zM55 62h82M55 86h56"/></svg><div class="foot-copy"><div class="foot-title">NHẮN TIN BÊN DƯỚI</div><div class="foot-sub">ĐỂ ĐƯỢC TƯ VẤN</div></div></div></div><div class="meter" data-layout-ignore><div class="meter-fill"></div></div></div><script>
+const tl=gsap.timeline({paused:true});window.__timelines=window.__timelines||{};
+tl.fromTo('.meter-fill',{scaleX:0},{scaleX:1,duration:19.1,ease:'none'},0);
+tl.to('#footage',{scale:1.035,duration:3.6,ease:'sine.inOut'},.2);
+tl.to('#footage',{scale:1.008,x:0,duration:.7,ease:'power2.inOut'},4.5);
+tl.to('#footage',{scale:1.035,x:-10,duration:3.0,ease:'sine.inOut'},6.0);
+tl.to('#footage',{scale:1.015,x:0,duration:.6,ease:'power2.inOut'},10.9);
+tl.to('#footage',{scale:1.045,x:-6,duration:2.1,ease:'sine.inOut'},13.85);
+tl.to('#footage',{scale:1.015,x:0,duration:.6,ease:'power2.inOut'},16.0);
+tl.from('#cap0 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},0.1);
+tl.set('#cap0',{opacity:0},2.12);
+tl.from('#cap1 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},2.12);
+tl.set('#cap1',{opacity:0},3.36);
+tl.from('#cap2 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},3.36);
+tl.set('#cap2',{opacity:0},4.32);
+tl.from('#cap3 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},4.9);
+tl.set('#cap3',{opacity:0},5.42);
+tl.from('#cap4 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},6.7);
+tl.set('#cap4',{opacity:0},7.3);
+tl.from('#cap5 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},7.3);
+tl.set('#cap5',{opacity:0},8.16);
+tl.from('#cap6 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},8.16);
+tl.set('#cap6',{opacity:0},8.8);
+tl.from('#cap7 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},9.52);
+tl.set('#cap7',{opacity:0},10.35);
+tl.from('#cap8 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},10.35);
+tl.set('#cap8',{opacity:0},11.1);
+tl.from('#cap9 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},11.3);
+tl.set('#cap9',{opacity:0},12.98);
+tl.from('#cap10 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},12.98);
+tl.set('#cap10',{opacity:0},13.98);
+tl.from('#cap11 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},14.1);
+tl.set('#cap11',{opacity:0},15.98);
+tl.from('#cap12 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},16.15);
+tl.set('#cap12',{opacity:0},17.15);
+tl.from('#cap13 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},17.15);
+tl.set('#cap13',{opacity:0},17.73);
+tl.from('#cap14 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},17.73);
+tl.set('#cap14',{opacity:0},18.38);
+tl.from('#cap15 .caption-inner',{y:14,opacity:0,duration:.14,ease:'power2.out'},18.38);
+tl.set('#cap15',{opacity:0},18.98);
+tl.from('#head0 .eyebrow',{y:18,opacity:0,duration:.22,ease:'power3.out'},0.05);tl.from('#head0 .main-title',{scale:.92,y:18,opacity:0,duration:.28,ease:'back.out(1.3)'},0.13);tl.from('#head0 .underline',{scaleX:0,duration:.3,ease:'sine.out'},0.21000000000000002);
+tl.set('#head0',{opacity:0},4.55);
+tl.from('#head1 .eyebrow',{y:18,opacity:0,duration:.22,ease:'power3.out'},5.7);tl.from('#head1 .main-title',{scale:.92,y:18,opacity:0,duration:.28,ease:'back.out(1.3)'},5.78);tl.from('#head1 .underline',{scaleX:0,duration:.3,ease:'sine.out'},5.86);
+tl.set('#head1',{opacity:0},9.14);
+tl.from('#head2 .eyebrow',{y:18,opacity:0,duration:.22,ease:'power3.out'},9.15);tl.from('#head2 .main-title',{scale:.92,y:18,opacity:0,duration:.28,ease:'back.out(1.3)'},9.23);tl.from('#head2 .underline',{scaleX:0,duration:.3,ease:'sine.out'},9.31);
+tl.set('#head2',{opacity:0},13.92);
+tl.from('#head3 .eyebrow',{y:18,opacity:0,duration:.22,ease:'power3.out'},13.92);tl.from('#head3 .main-title',{scale:.92,y:18,opacity:0,duration:.28,ease:'back.out(1.3)'},14.0);tl.from('#head3 .underline',{scaleX:0,duration:.3,ease:'sine.out'},14.08);
+tl.set('#head3',{opacity:0},16.05);
+tl.from('#head4 .eyebrow',{y:18,opacity:0,duration:.22,ease:'power3.out'},16.12);tl.from('#head4 .main-title',{scale:.92,y:18,opacity:0,duration:.28,ease:'back.out(1.3)'},16.2);tl.from('#head4 .underline',{scaleX:0,duration:.3,ease:'sine.out'},16.28);
+tl.set('#head4',{opacity:0},19.1);
+tl.from('#foot0 svg',{scale:.75,rotation:-5,opacity:0,duration:.3,ease:'back.out(1.4)'},0.15);tl.from('#foot0 .foot-copy',{x:22,opacity:0,duration:.25,ease:'power3.out'},0.21);
+tl.set('#foot0',{opacity:0},4.55);
+tl.from('#foot1 svg',{scale:.75,rotation:-5,opacity:0,duration:.3,ease:'back.out(1.4)'},7.3);tl.from('#foot1 .foot-copy',{x:22,opacity:0,duration:.25,ease:'power3.out'},7.359999999999999);
+tl.set('#foot1',{opacity:0},8.8);
+tl.from('#foot2 svg',{scale:.75,rotation:-5,opacity:0,duration:.3,ease:'back.out(1.4)'},11.08);tl.from('#foot2 .foot-copy',{x:22,opacity:0,duration:.25,ease:'power3.out'},11.14);
+tl.set('#foot2',{opacity:0},13.92);
+tl.from('#foot3 svg',{scale:.75,rotation:-5,opacity:0,duration:.3,ease:'back.out(1.4)'},14.1);tl.from('#foot3 .foot-copy',{x:22,opacity:0,duration:.25,ease:'power3.out'},14.16);
+tl.set('#foot3',{opacity:0},15.98);
+tl.from('#foot4 svg',{scale:.75,rotation:-5,opacity:0,duration:.3,ease:'back.out(1.4)'},16.12);tl.from('#foot4 .foot-copy',{x:22,opacity:0,duration:.25,ease:'power3.out'},16.18);
+tl.set('#foot4',{opacity:0},19.1);
+window.__timelines['main']=tl;</script></body></html>

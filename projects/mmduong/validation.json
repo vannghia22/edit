@@ -1,0 +1,71 @@
+{
+  "file": "MM_DUONG_EDITVIDEOMAU_FINAL.mp4",
+  "sha256": "d7934ac358d8c618acaa51704b7b492ec828fccdea543ddfa4df624e2b957244",
+  "bytes": 13467825,
+  "duration": 19.1,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "decoded_video_frames": 573,
+  "full_decode_exit_code": 0,
+  "video_audio_start_time": [
+    0,
+    0
+  ],
+  "video_audio_duration": [
+    19.1,
+    19.1
+  ],
+  "faststart": true,
+  "audio_peak_mono_dbfs": -1.44,
+  "beep_spectral_checks": [
+    {
+      "interval": [
+        2.577,
+        2.852
+      ],
+      "dominant_hz": 880.0,
+      "tone_ratio": 0.813
+    },
+    {
+      "interval": [
+        8.482,
+        8.842
+      ],
+      "dominant_hz": 879.5,
+      "tone_ratio": 0.809
+    },
+    {
+      "interval": [
+        17.227,
+        17.452
+      ],
+      "dominant_hz": 880.0,
+      "tone_ratio": 0.814
+    }
+  ],
+  "composition_check": {
+    "passed": true,
+    "runtime_errors": 0,
+    "layout_issues": 0,
+    "layout_samples": 9,
+    "motion_errors": 0,
+    "contrast_passed": 21,
+    "contrast_total": 21,
+    "lint_errors": 0,
+    "structural_lint_warnings": 28
+  },
+  "caption_source": "Manually checked burned-in source captions; erroneous automatic ASR was discarded. Not a claim of full auditory verification.",
+  "visual_check": "Rendered contact sheet sampled each second; full-resolution preflight frames checked at 1.0, 8.6 and 17.9 seconds.",
+  "caption_final_recheck": {
+    "timestamp": 14.7,
+    "layout_issues": 0,
+    "contrast_passed": 6,
+    "contrast_total": 6,
+    "caption_lines": 2
+  },
+  "audio_stream_sha256": "a8732e55f3edc151b5a3c28aa0c1f575e4ee86efbe5a091ef647f4517cbe258e",
+  "audio_unchanged_from_spectrally_verified_render": true
+}
