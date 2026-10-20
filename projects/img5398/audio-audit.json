@@ -1,0 +1,100 @@
+{
+  "duration": 50.3,
+  "source_voice_rms": 0.040876594258415104,
+  "voice_gain": 1.6,
+  "premaster_peak": 0.78952653592657,
+  "mix_peak": 0.841400146484375,
+  "loudness_normalization": {
+    "input_i": "-21.42",
+    "input_tp": "-2.05",
+    "input_lra": "6.10",
+    "input_thresh": "-32.16",
+    "output_i": "-17.92",
+    "output_tp": "-1.50",
+    "output_lra": "3.40",
+    "output_thresh": "-28.48",
+    "normalization_type": "dynamic",
+    "target_offset": "1.92"
+  },
+  "music_rms": 0.004402094181867305,
+  "music": "Original synthesized instrumental, 100 BPM",
+  "sfx_events": [
+    {
+      "time": 0.15,
+      "type": "zoom-whoosh",
+      "scale": 1.14
+    },
+    {
+      "time": 4.9,
+      "type": "zoom-whoosh",
+      "scale": 1.18
+    },
+    {
+      "time": 12.02,
+      "type": "zoom-whoosh",
+      "scale": 1.12
+    },
+    {
+      "time": 14.13,
+      "type": "zoom-whoosh",
+      "scale": 1.18
+    },
+    {
+      "time": 16.23,
+      "type": "zoom-whoosh",
+      "scale": 1.12
+    },
+    {
+      "time": 18.22,
+      "type": "zoom-whoosh",
+      "scale": 1.18
+    },
+    {
+      "time": 26.6,
+      "type": "zoom-whoosh",
+      "scale": 1.18
+    },
+    {
+      "time": 29.8,
+      "type": "zoom-whoosh",
+      "scale": 1.12
+    },
+    {
+      "time": 35.4,
+      "type": "zoom-whoosh",
+      "scale": 1.17
+    },
+    {
+      "time": 40.12,
+      "type": "zoom-whoosh",
+      "scale": 1.14
+    },
+    {
+      "time": 44.52,
+      "type": "zoom-whoosh",
+      "scale": 1.17
+    },
+    {
+      "time": 0.2,
+      "type": "keyword-chime"
+    },
+    {
+      "time": 14.16,
+      "type": "keyword-chime"
+    },
+    {
+      "time": 26.66,
+      "type": "keyword-chime"
+    },
+    {
+      "time": 35.46,
+      "type": "keyword-chime"
+    },
+    {
+      "time": 40.18,
+      "type": "keyword-chime"
+    }
+  ],
+  "censor_intervals": [],
+  "review_note": "The specified words vay / nợ xấu were not found in the reviewed ASR passes. The opening word is góp in both passes; do not invent a banned-word rule or mute unrelated words."
+}

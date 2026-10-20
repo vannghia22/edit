@@ -1,0 +1,10 @@
+{
+  "name": "img5398-editvideomau",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.181 preview",
+    "check": "npx --yes hyperframes@0.8.181 check",
+    "render": "npx --yes hyperframes@0.8.181 render --output ../../IMG_5398_EDITVIDEOMAU_FINAL.mp4 --quality high --crf 19 --fps 30 --workers 3"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "file": "IMG_5398_EDITVIDEOMAU_FINAL.mp4",
+  "sha256": "0f85b54a0660f7c8fcdc38cde8d7371bfec211b3cf30de3d2558885b8ef58fe5",
+  "bytes": 55285045,
+  "source_sha256": "83118955a8bb0e281270e299d02954df5f638f505df3ecc173015e57bc3a929f",
+  "source_bytes": 107017315,
+  "source_unchanged": true,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "duration": 50.3,
+  "codec": "H.264 / AAC",
+  "pixel_format": "yuv420p",
+  "full_decode_exit_code": 0,
+  "decoded_video_frames": 1509,
+  "video_audio_start_time": [
+    0,
+    0
+  ],
+  "video_audio_duration": [
+    50.3,
+    50.3
+  ],
+  "faststart": true,
+  "audio_zero_offset_correlation_with_master": 0.9998849010339412,
+  "audio_peak_dbfs": -1.4334159207659538,
+  "master_loudness": {
+    "input_i": "-21.42",
+    "input_tp": "-2.05",
+    "input_lra": "6.10",
+    "input_thresh": "-32.16",
+    "output_i": "-17.92",
+    "output_tp": "-1.50",
+    "output_lra": "3.40",
+    "output_thresh": "-28.48",
+    "normalization_type": "dynamic",
+    "target_offset": "1.92"
+  },
+  "composition_check": {
+    "passed": true,
+    "runtime_errors": 0,
+    "motion_errors": 0,
+    "layout_issues": 0,
+    "layout_samples": 9,
+    "lint_errors": 0,
+    "structural_lint_warnings": 41,
+    "automated_contrast_warnings": 5,
+    "contrast_review": "Yellow keywords on the light shirt retain 5px dark outlines and shadows as requested; reviewed at full resolution. Do not describe all automated contrast checks as passing."
+  },
+  "visual_review": "Full output sampled each second across two contact sheets; clean 1.2s output frame inspected at full resolution. No large black top/bottom mattes or audit annotations. Clear 12–18% emphasis zooms verified in preflight frames.",
+  "transcript_review": "Small and turbo ASR outputs compared, obvious phonetic errors corrected, filler/pronouns shortened. No claim of full direct auditory review. The original specified censorship terms were not observed; no unrelated words muted."
+}

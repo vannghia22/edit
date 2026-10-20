@@ -1,0 +1,10 @@
+source.MOV
+source-stereo.wav
+graded.mp4
+mix.wav
+music-original.wav
+sfx-original.wav
+.hyperframes/
+renders/
+node_modules/
+__pycache__/
