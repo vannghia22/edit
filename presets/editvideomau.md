@@ -38,6 +38,15 @@ Các mục dưới đây là yêu cầu của người dùng, không được tr
 10. Thêm nhạc nền phù hợp chủ đề, có quyền sử dụng; giữ lời nói rõ, giảm nhạc dưới giọng. SFX chỉ tại hook, từ nhấn, đồ họa, chuyển cảnh hoặc từ được che, không lạm dụng. Đây là lựa chọn dựng theo yêu cầu, không phải nhạc/SFX đã xác định từ mẫu.
 11. Có CTA trong nguồn thì nhấn bằng chữ/biểu tượng/chuyển động hợp ngữ cảnh. Không tự tạo giá, số điện thoại, tài khoản hay ưu đãi. Không bắt buộc CTA nếu nguồn không có.
 
+## Điều chỉnh bổ sung cho video IMG_5398.MOV
+
+- Năm sinh, tuổi và số lượng viết bằng chữ số khi xuất hiện trong lời nói: ví dụ `2007`, `18 tuổi`. Đây là ví dụ về cách trình bày, không phải dữ kiện đã xác minh trong video này. Giữ nguyên số và ý nghĩa từ nguồn; không tự tính hoặc đổi tuổi theo năm sinh.
+- Zoom in/out rõ hơn bản MM Đường trước: dùng chuyển cỡ cảnh có chủ đích tại từ/câu nhấn, rồi trả về khung rộng. Có thể thử mức tăng 10–18% tùy độ phân giải và vị trí mặt; kiểm tra thực tế trước khi chốt. Không zoom liên tục hoặc cắt mất mặt/tay quan trọng.
+- Đồng bộ các cú zoom nhấn với SFX ngắn (whoosh/pop/impact nhẹ), dưới mức giọng nói, không lặp dày hoặc gây chói.
+- Khung chữ phía trên đặc sắc hơn, chữ lớn, đậm, nét rõ, ưu tiên nền cục bộ/viền/điểm nhấn vàng và chuyển động ngắn. Giữ chữ trong vùng an toàn, không che mặt; tránh biến khung chữ thành mảng đen lớn phủ hình.
+- Nhấn các chữ và đoạn quan trọng bằng độ lớn, màu sắc, underline hoặc chuyển động theo lời thực sự có trong nguồn. Các điểm nhấn mạnh kết hợp chữ + zoom + SFX khi phù hợp.
+- Tiếp tục dùng hình phủ kín khung và tối mờ nhẹ ở góc theo bản MM Đường LIGHT đã được người dùng chấp nhận. Không quay lại hai mảng đen dày trên/dưới.
+
 ## Quy trình dựng và kiểm tra
 
 - Xác định đúng tệp nguồn và yêu cầu loại trừ; phân tích toàn bộ nguồn, lập transcript và rà nghe/sửa tên riêng, số liệu, từ cần che. Không dùng transcript tự động chưa kiểm tra để xuất bản.
