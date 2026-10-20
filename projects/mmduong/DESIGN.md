@@ -1,6 +1,6 @@
 # Visual direction — /editvideomau
 
-Use the reference video's bold white/yellow outlined typography, adapted to this warm indoor talking-head clip. Keep a continuous portrait and use soft dark top/bottom mattes to cover the source's already burned-in title cards and captions. No framed headline cards. Preserve the face in the clear central area. Add concise line illustrations for identification, documents, and messaging only when mentioned.
+Use the reference video's bold white/yellow outlined typography, adapted to this warm indoor talking-head clip. Show the continuous portrait edge to edge. Use only a subtle corner vignette (maximum 18% black at outer corners), with no opaque top/bottom mattes. Retain burned-in source captions/headlines rather than duplicating or blurring them. Preserve the face in the clear central area. Add concise line illustrations for identification, documents, and messaging only when mentioned.
 
 ## Colors
 - #101116 — dark matte

@@ -37,11 +37,7 @@ parts=[]
 def clip(id,cl,a,b,body,track):
  timings.append((id,cl,a,b))
  return f'<div id="{id}" class="clip {cl}" data-start="{a}" data-duration="{b-a:.3f}" data-track-index="{track}">{body}</div>'
-for i,(a,b,l1,l2) in enumerate(caps):
- body=f'<div class="caption-inner">{l1.upper()}' + (f'<span class="line accent">{l2.upper()}</span>' if l2 else '')+'</div>'
- parts.append(clip(f'cap{i}','caption',a,b,body,3))
-for i,(a,b,l1,l2) in enumerate(heads):
- parts.append(clip(f'head{i}','headline',a,b,f'<div class="eyebrow">{l1}</div><div class="main-title">{l2}</div><div class="underline"></div>',4))
+# Source already contains captions and headline cards; retain them without duplicating overlays.
 for i,(a,b,key,t1,t2) in enumerate(foots):
  body=f'<div class="foot-inner"><svg viewBox="0 0 190 170" aria-hidden="true">{icons[key]}</svg><div class="foot-copy"><div class="foot-title">{t1}</div><div class="foot-sub">{t2}</div></div></div>'
  parts.append(clip(f'foot{i}','foot',a,b,body,5))
@@ -51,8 +47,8 @@ html='''<!doctype html><html lang="vi"><head><meta charset="UTF-8"><meta name="v
 #main{position:relative;width:1080px;height:1920px;overflow:hidden}
 #footage{position:absolute;inset:0;transform-origin:48% 48%;z-index:0}video{width:1080px;height:1920px;object-fit:cover}
 .matte{position:absolute;left:0;width:1080px;pointer-events:none;z-index:1}
-.top-matte{top:0;height:560px;background:linear-gradient(to bottom,#101116 0%,#101116 76%,rgba(16,17,22,0) 100%)}
-.bottom-matte{top:1210px;height:710px;background:linear-gradient(to bottom,rgba(16,17,22,0) 0%,#101116 10%,#101116 100%)}
+.corner-vignette{inset:0;height:1920px;background:radial-gradient(ellipse at center,rgba(0,0,0,0) 58%,rgba(0,0,0,.18) 100%)}
+
 .headline{position:absolute;inset:0;z-index:3;width:100%;height:430px;padding:165px 130px 20px 80px;display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center}
 .eyebrow{font-size:37px;line-height:1.2;letter-spacing:3px;color:#fff;text-shadow:0 3px 5px #101116}
 .main-title{font-size:69px;line-height:1.13;letter-spacing:-2px;color:#ffe66b;-webkit-text-stroke:1px #101116;paint-order:stroke fill;text-shadow:0 4px 0 #101116;font-variant-numeric:tabular-nums}
@@ -62,14 +58,14 @@ html='''<!doctype html><html lang="vi"><head><meta charset="UTF-8"><meta name="v
 .line{display:block}.accent{color:#ffe66b}#cap11 .line{font-size:49px}
 .foot{position:absolute;left:0;top:1520px;width:100%;height:185px;padding:10px 145px 10px 85px;z-index:3}
 .foot-inner{width:100%;height:100%;display:flex;align-items:center;justify-content:center;gap:24px}
-svg{width:140px;height:150px;flex-shrink:0;fill:none;stroke:#ffe66b;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
-.foot-copy{max-width:590px;display:flex;flex-direction:column;gap:12px}
-.foot-title{font-size:37px;line-height:1.2;color:#ffe66b}.foot-sub{font-size:24px;line-height:1.35;color:#c5c7cc;letter-spacing:.5px}
+svg{width:140px;height:150px;flex-shrink:0;fill:none;stroke:#ffe66b;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 2px 3px #101116)}
+.foot-copy{max-width:590px;display:flex;flex-direction:column;gap:12px;-webkit-text-stroke:2px #101116;paint-order:stroke fill;text-shadow:0 2px 4px #101116,0 0 6px #101116}
+.foot-title{font-size:37px;line-height:1.2;color:#ffe66b}.foot-sub{font-size:24px;line-height:1.35;color:#ffffff;letter-spacing:.5px}
 .meter{position:absolute;left:80px;right:140px;top:1755px;height:3px;background:#303238;z-index:3}.meter-fill{height:100%;width:100%;background:#ffe66b;transform-origin:left}
 </style></head><body><div id="main" data-composition-id="main" data-start="0" data-duration="19.1" data-width="1080" data-height="1920" data-fps="30">
 <div id="footage" data-layout-ignore><video id="video" class="clip" data-start="0" data-duration="19.1" data-track-index="0" src="graded.mp4" muted playsinline></video></div>
 <audio id="audio" data-start="0" data-duration="19.1" data-track-index="1" src="mix.wav" data-volume="1"></audio>
-<div class="matte top-matte" data-layout-ignore></div><div class="matte bottom-matte" data-layout-ignore></div>
+<div class="matte corner-vignette" data-layout-ignore></div>
 '''+''.join(parts)+'''<div class="meter" data-layout-ignore><div class="meter-fill"></div></div></div><script>
 const tl=gsap.timeline({paused:true});window.__timelines=window.__timelines||{};
 tl.fromTo('.meter-fill',{scaleX:0},{scaleX:1,duration:19.1,ease:'none'},0);
