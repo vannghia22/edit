@@ -1,0 +1,79 @@
+{
+  "file": "B1_EDIT2_FINAL.mp4",
+  "bytes": 9875003,
+  "sha256": "7a877c0247d92fc98f850789bcc3eb82e494b2b5151ff791cedab0a056b688e3",
+  "source_name": "b (1).mp4",
+  "source_sha256": "9cba192f62205c1ca6957a807f205111e58eb69e7d327ac7c819d5279646d4c9",
+  "source_bytes": 11165452,
+  "source_range_retained_s": [
+    0,
+    40.4
+  ],
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": "30/1",
+  "duration": 40.4,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "pixel_format": "yuv420p",
+  "decoded_video_frames": 1212,
+  "full_decode": "passed",
+  "video_audio_start_s": [
+    "0.000000",
+    "0.000000"
+  ],
+  "video_audio_duration_s": [
+    "40.400000",
+    "40.400000"
+  ],
+  "faststart": true,
+  "audio_correlation_with_master_zero_offset": 0.9998816169637385,
+  "output_loudness_lufs": -17.66,
+  "output_true_peak_dbtp": -1.42,
+  "preflight": {
+    "lint": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 36,
+      "checked": null,
+      "passed": null
+    },
+    "runtime": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": null,
+      "passed": null
+    },
+    "layout": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": null,
+      "passed": null
+    },
+    "motion": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": null,
+      "passed": null
+    },
+    "contrast": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": 25,
+      "passed": 25
+    }
+  },
+  "lint_warnings_review": "36 organizational warnings about dense tracks/nested clip containers; no lint, layout, runtime or motion errors. All 25 sampled text contrasts pass.",
+  "visual_review": "Rendered output surveyed at 1-second intervals; opening final frame inspected at native resolution. No audit annotations in the MP4; face/mouth clear.",
+  "caption_review": "Independent Zipformer vi and Whisper turbo results compared, obvious phonetic errors corrected, repeated filler shortened. No forced alignment or direct auditory review claimed.",
+  "censor_intervals": [],
+  "censor_note": "Both recognizers identify góp; requested vay/nợ xấu terms not detected. No unrelated word muted."
+}

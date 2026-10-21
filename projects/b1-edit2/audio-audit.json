@@ -1,0 +1,91 @@
+{
+  "duration": 40.4,
+  "sample_rate": 48000,
+  "voice_rms": 0.08708342192027678,
+  "music_rms": 0.0027413075674645087,
+  "fx_peak": 0.03338373817155012,
+  "master_peak_dbfs": -1.5018387628782768,
+  "loudnorm": {
+    "input_i": "-18.73",
+    "input_tp": "-0.91",
+    "input_lra": "5.00",
+    "input_thresh": "-29.38",
+    "output_i": "-17.54",
+    "output_tp": "-1.50",
+    "output_lra": "3.40",
+    "output_thresh": "-28.22",
+    "normalization_type": "dynamic",
+    "target_offset": "1.54"
+  },
+  "music": "Original synthesized soft pluck/bass bed, 92 BPM; not copied from reference",
+  "sfx": [
+    {
+      "time": 0.15,
+      "type": "soft-whoosh",
+      "scale": 1.11
+    },
+    {
+      "time": 4.77,
+      "type": "soft-whoosh",
+      "scale": 1.14
+    },
+    {
+      "time": 12.3,
+      "type": "soft-whoosh",
+      "scale": 1.12
+    },
+    {
+      "time": 13.2,
+      "type": "soft-whoosh",
+      "scale": 1.16
+    },
+    {
+      "time": 15.0,
+      "type": "soft-whoosh",
+      "scale": 1.12
+    },
+    {
+      "time": 18.94,
+      "type": "soft-whoosh",
+      "scale": 1.16
+    },
+    {
+      "time": 27.75,
+      "type": "soft-whoosh",
+      "scale": 1.15
+    },
+    {
+      "time": 34.1,
+      "type": "soft-whoosh",
+      "scale": 1.12
+    },
+    {
+      "time": 38.22,
+      "type": "soft-whoosh",
+      "scale": 1.1
+    },
+    {
+      "time": 0.2,
+      "type": "soft-pop"
+    },
+    {
+      "time": 12.35,
+      "type": "soft-pop"
+    },
+    {
+      "time": 18.98,
+      "type": "soft-pop"
+    },
+    {
+      "time": 27.78,
+      "type": "soft-pop"
+    },
+    {
+      "time": 33.63,
+      "type": "soft-pop"
+    }
+  ],
+  "censor_intervals": [],
+  "censor_note": "Both independent recognition passes identify góp. The requested terms vay and nợ xấu were not detected in either pass; no unrelated words muted.",
+  "review_limit": "Signal, transcript and timing checks performed; direct auditory review not available in this session."
+}

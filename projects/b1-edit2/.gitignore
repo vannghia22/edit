@@ -1,0 +1,8 @@
+source.mp4
+b (1).mp4
+*.wav
+graded.mp4
+.hyperframes/
+node_modules/
+renders/
+__pycache__/

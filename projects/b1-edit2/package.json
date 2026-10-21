@@ -1,0 +1,10 @@
+{
+  "name": "b1-edit2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx hyperframes@0.8.181 preview --background",
+    "check": "npx hyperframes@0.8.181 check",
+    "render": "npx hyperframes@0.8.181 render --output ../../B1_EDIT2_MASTER.mp4 --quality high --crf 21 --fps 30 --workers 3 && bash deliver.sh"
+  }
+}

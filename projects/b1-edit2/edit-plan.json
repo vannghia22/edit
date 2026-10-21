@@ -1,0 +1,185 @@
+{
+  "duration": 40.4,
+  "headlines": [
+    [
+      0.15,
+      3.76,
+      "CÂU HỎI THƯỜNG GẶP",
+      "18 TUỔI",
+      "GÓP 15 TRIỆU?",
+      68,
+      "question"
+    ],
+    [
+      3.78,
+      8.4,
+      "GÓP 15 TRIỆU",
+      "THẨM ĐỊNH",
+      "NGƯỜI THÂN?",
+      56,
+      "people"
+    ],
+    [
+      10.65,
+      13.18,
+      "GIẤY TỜ",
+      "CĂN CƯỚC",
+      "CÔNG DÂN",
+      62,
+      "id"
+    ],
+    [
+      13.19,
+      14.76,
+      "ĐỘ TUỔI",
+      "TỪ 18 TUỔI",
+      "",
+      64,
+      "age"
+    ],
+    [
+      14.77,
+      16.65,
+      "THEO NỘI DUNG TƯ VẤN",
+      "KHÔNG CẦN",
+      "THẨM ĐỊNH NGƯỜI THÂN",
+      58,
+      "people"
+    ],
+    [
+      16.75,
+      25.06,
+      "HẠN MỨC CÓ THỂ HỖ TRỢ",
+      "15–50 TRIỆU",
+      "",
+      67,
+      "range"
+    ],
+    [
+      26.3,
+      29.2,
+      "HIỆN CHỈ HỖ TRỢ",
+      "ĐÀ NẴNG",
+      "",
+      70,
+      "pin"
+    ],
+    [
+      30.73,
+      33.42,
+      "DÀNH CHO BẠN TẠI",
+      "ĐÀ NẴNG",
+      "CÓ NHU CẦU NHƯ TRÊN",
+      66,
+      "pin"
+    ],
+    [
+      33.58,
+      36.74,
+      "ĐANG CÓ NHU CẦU?",
+      "LIÊN HỆ",
+      "ĐỂ ĐƯỢC TƯ VẤN",
+      68,
+      "message"
+    ],
+    [
+      36.75,
+      40.4,
+      "HỖ TRỢ HỒ SƠ",
+      "TRỰC TIẾP",
+      "TẠI ĐÀ NẴNG",
+      62,
+      "pin"
+    ]
+  ],
+  "zoom_tweens": [
+    [
+      0.15,
+      1.11,
+      0.3
+    ],
+    [
+      2.35,
+      1,
+      0.35
+    ],
+    [
+      4.77,
+      1.14,
+      0.27
+    ],
+    [
+      6.2,
+      1,
+      0.38
+    ],
+    [
+      12.3,
+      1.12,
+      0.28
+    ],
+    [
+      13.2,
+      1.16,
+      0.28
+    ],
+    [
+      14.52,
+      1,
+      0.32
+    ],
+    [
+      15.0,
+      1.12,
+      0.28
+    ],
+    [
+      16.5,
+      1,
+      0.3
+    ],
+    [
+      18.94,
+      1.16,
+      0.3
+    ],
+    [
+      21.05,
+      1,
+      0.38
+    ],
+    [
+      27.75,
+      1.15,
+      0.28
+    ],
+    [
+      29.18,
+      1,
+      0.36
+    ],
+    [
+      34.1,
+      1.12,
+      0.28
+    ],
+    [
+      36.7,
+      1,
+      0.35
+    ],
+    [
+      38.22,
+      1.1,
+      0.3
+    ],
+    [
+      40.02,
+      1,
+      0.35
+    ]
+  ],
+  "censor_intervals": [],
+  "censor_note": "Both independent recognition passes identify góp. The requested terms vay and nợ xấu were not detected in either pass; no unrelated words muted.",
+  "transcript_review": "Zipformer timestamped transcription compared to Whisper turbo in 2 chunks; obvious phonetic errors corrected (căn cước công dân, Đà Nẵng). Redundant filler shortened in captions. No direct auditory review claimed."
+}
