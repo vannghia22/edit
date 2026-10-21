@@ -1,0 +1,121 @@
+{
+  "duration": 45.5,
+  "headlines": [
+    [
+      0.15,
+      7.95,
+      "CÂU HỎI THƯỜNG GẶP",
+      "18 TUỔI",
+      "GÓP 15 TRIỆU?",
+      68,
+      "question"
+    ],
+    [
+      9.3,
+      11.87,
+      "GIẤY TỜ",
+      "CĂN CƯỚC",
+      "CÔNG DÂN",
+      62,
+      "id"
+    ],
+    [
+      11.88,
+      13.55,
+      "ĐỘ TUỔI",
+      "TỪ 18 TUỔI",
+      "TRỞ LÊN",
+      62,
+      "age"
+    ],
+    [
+      13.82,
+      15.24,
+      "THU NHẬP",
+      "KHÔNG CẦN",
+      "CHỨNG MINH THU NHẬP",
+      56,
+      "id"
+    ],
+    [
+      15.25,
+      16.66,
+      "NGƯỜI THÂN",
+      "KHÔNG",
+      "THẨM ĐỊNH NGƯỜI THÂN",
+      60,
+      "people"
+    ],
+    [
+      16.83,
+      24.8,
+      "HẠN MỨC CÓ THỂ HỖ TRỢ",
+      "15–50 TRIỆU",
+      "",
+      67,
+      "range"
+    ],
+    [
+      29.88,
+      33.02,
+      "HIỆN CHỈ HỖ TRỢ",
+      "ĐÀ NẴNG",
+      "& QUY NHƠN",
+      67,
+      "pin"
+    ],
+    [
+      34.75,
+      37.89,
+      "KHU VỰC HỖ TRỢ",
+      "2 THÀNH PHỐ",
+      "ĐÀ NẴNG • QUY NHƠN",
+      54,
+      "pin"
+    ],
+    [
+      37.9,
+      40.77,
+      "ĐANG CÓ NHU CẦU?",
+      "LIÊN HỆ",
+      "ĐỂ ĐƯỢC TƯ VẤN",
+      68,
+      "message"
+    ],
+    [
+      40.78,
+      45.5,
+      "HỖ TRỢ HỒ SƠ",
+      "TRỰC TIẾP",
+      "TẠI THÀNH PHỐ BẠN ĐANG Ở",
+      62,
+      "pin"
+    ]
+  ],
+  "zoom_tweens": [
+    [
+      18.92,
+      1.1,
+      0.35
+    ],
+    [
+      21.02,
+      1,
+      0.4
+    ],
+    [
+      30.72,
+      1.08,
+      0.38
+    ],
+    [
+      33.03,
+      1,
+      0.4
+    ]
+  ],
+  "censor_intervals": [],
+  "censor_note": "Both recognizers identify góp; vay and nợ xấu were not detected. No unrelated words muted.",
+  "per_video_override": "Only 2 important-word zooms (15–50 triệu; Đà Nẵng/Quy Nhơn), 4 zoom/return tweens total; stable frame elsewhere. No hook or CTA zoom.",
+  "transcript_review": "Zipformer timestamped transcription compared to Whisper turbo in 2 chunks; obvious phonetic errors corrected (người thân, căn cước công dân, Đà Nẵng, Quy Nhơn). Redundant filler shortened in captions. No direct auditory review claimed."
+}

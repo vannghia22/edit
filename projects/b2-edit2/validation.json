@@ -1,0 +1,92 @@
+{
+  "file": "B2_EDIT2_FINAL.mp4",
+  "bytes": 10715878,
+  "sha256": "b79f29a4d113c5d5b46282d607eb4907f4726a003f3645f436cdbe26e3b0d696",
+  "source_name": "b (2).mp4",
+  "source_sha256": "a2819daab981f89989b229d072fd7ee973cadba3cd7689b765990e6bd6b6e4af",
+  "source_bytes": 12580113,
+  "source_range_retained_s": [
+    0,
+    45.5
+  ],
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": "30/1",
+  "duration": 45.5,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "pixel_format": "yuv420p",
+  "decoded_video_frames": 1365,
+  "full_decode": "passed",
+  "video_audio_start_s": [
+    "0.000000",
+    "0.000000"
+  ],
+  "video_audio_duration_s": [
+    "45.500000",
+    "45.500000"
+  ],
+  "faststart": true,
+  "audio_correlation_with_master_zero_offset": 0.9999054301891287,
+  "output_loudness_lufs": -17.83,
+  "output_true_peak_dbtp": -1.46,
+  "preflight": {
+    "lint": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 40,
+      "checked": null,
+      "passed": null
+    },
+    "runtime": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": null,
+      "passed": null
+    },
+    "layout": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": null,
+      "passed": null
+    },
+    "motion": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": null,
+      "passed": null
+    },
+    "contrast": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": 23,
+      "passed": 23
+    }
+  },
+  "lint_warnings_review": "40 organizational warnings about dense tracks/nested clip containers; no lint, layout, runtime or motion errors. All 23 sampled text contrasts pass.",
+  "visual_review": "Rendered output surveyed at 1-second intervals; opening final frame inspected at native resolution. No audit annotations in the MP4; face/mouth clear.",
+  "caption_review": "Zipformer vi, Whisper turbo and selected Whisper small outputs compared; obvious phonetic errors corrected and repeated filler shortened. Isolated-tail subscribe hallucination discarded. No forced alignment or direct auditory review claimed.",
+  "zoom_override": {
+    "punch_ins": 2,
+    "zoom_return_tweens": 4,
+    "scales": [
+      1.1,
+      1.08
+    ],
+    "moments": [
+      "15–50 triệu",
+      "Đà Nẵng / Quy Nhơn"
+    ],
+    "hook_and_cta_zoom": false
+  },
+  "censor_intervals": [],
+  "censor_note": "Recognizers identify góp; vay/nợ xấu not detected. No unrelated word muted."
+}

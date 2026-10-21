@@ -1,0 +1,52 @@
+{
+  "duration": 45.5,
+  "sample_rate": 48000,
+  "voice_rms": 0.08534934696592658,
+  "music_rms": 0.0026799115762167784,
+  "fx_peak": 0.03475703303624591,
+  "master_peak_dbfs": -1.4999483341916093,
+  "loudnorm": {
+    "input_i": "-19.02",
+    "input_tp": "-0.91",
+    "input_lra": "5.30",
+    "input_thresh": "-29.79",
+    "output_i": "-17.72",
+    "output_tp": "-1.50",
+    "output_lra": "4.50",
+    "output_thresh": "-28.40",
+    "normalization_type": "dynamic",
+    "target_offset": "1.72"
+  },
+  "music": "Original synthesized soft pluck/bass bed, 88 BPM; not copied from reference",
+  "sfx": [
+    {
+      "time": 18.92,
+      "type": "soft-whoosh",
+      "scale": 1.1
+    },
+    {
+      "time": 30.72,
+      "type": "soft-whoosh",
+      "scale": 1.08
+    },
+    {
+      "time": 0.2,
+      "type": "soft-pop"
+    },
+    {
+      "time": 18.98,
+      "type": "soft-pop"
+    },
+    {
+      "time": 30.77,
+      "type": "soft-pop"
+    },
+    {
+      "time": 38.18,
+      "type": "soft-pop"
+    }
+  ],
+  "censor_intervals": [],
+  "censor_note": "Both recognizers identify góp; vay and nợ xấu were not detected. No unrelated words muted.",
+  "review_limit": "Signal, transcript and timing checks performed; direct auditory review not available in this session."
+}
