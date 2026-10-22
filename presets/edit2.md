@@ -74,3 +74,7 @@ Không sao chép số liệu, danh tính, đồ họa nhận diện hoặc nội
 Người dùng đã yêu cầu tự công khai video đã chỉnh và giao link tải/GitHub. Khi nguồn đã rõ và bản xuất kiểm tra xong, thực hiện trong phạm vi này, không xin lại quyền đã cấp. Ưu tiên repository công khai phù hợp hoặc link tải thực sự truy cập được. Không tự đăng tài khoản mạng xã hội nếu chỉ được yêu cầu giao tệp.
 
 Chỉ nói đã xuất bản sau khi có xác nhận upload và link thật. Lưu preset không đồng nghĩa đã tạo video. Không gọi đường dẫn nội bộ là link tải công khai. Nếu môi trường hoặc API chặn, nêu đúng phần còn thiếu, không bịa link.
+
+## Giữ video nguồn theo điều chỉnh mới nhất
+
+Với video có người nói, mặc định giữ người nói, giọng và ý nghĩa nội dung gốc. Ảnh, nhãn, phụ đề và SFX là các lớp minh họa bổ sung. Không tự chuyển toàn bộ sang video chữ/kiến thức hoặc thay giọng khi người dùng chỉ yêu cầu chỉnh sửa hay kiểm tra chính sách. Phương án nội dung khác, nếu có, phải là bản riêng và không thay thế bản dựng theo yêu cầu. Những thay đổi này không đồng nghĩa được nền tảng phê duyệt.

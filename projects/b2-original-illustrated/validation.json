@@ -1,0 +1,113 @@
+{
+  "file": "B2_ORIGINAL_ILLUSTRATED.mp4",
+  "bytes": 10767463,
+  "sha256": "0fdc2bc85c4c1cbfa60ee37853fedbdcf81b0b688a4c97ba611273c0c010b435",
+  "git_blob_sha": "c4fb6956fc72a19907f64e63d57ebc5082ba2e4a",
+  "source_sha256": "a2819daab981f89989b229d072fd7ee973cadba3cd7689b765990e6bd6b6e4af",
+  "source_range_retained_s": [
+    0,
+    46.8
+  ],
+  "source_content_preserved": "Complete original presenter footage and speech; no time cuts, synthetic voice, bleeps, source grading, reframing or footage zoom. Added text, illustrations, vignette, instrumental and SFX are overlays.",
+  "duration": 46.8,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 30,
+  "frames": 1404,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "faststart": true,
+  "full_decode": "passed",
+  "a_v_durations": [
+    "46.800000",
+    "46.800000"
+  ],
+  "audio_correlation_with_master": 0.9998974815268249,
+  "original_speech_alignment": [
+    {
+      "at": 0.8,
+      "lag_samples_48k": 0,
+      "source_output_correlation": 0.999889046014747
+    },
+    {
+      "at": 12,
+      "lag_samples_48k": 0,
+      "source_output_correlation": 0.9995880308760928
+    },
+    {
+      "at": 25,
+      "lag_samples_48k": 0,
+      "source_output_correlation": 0.9997568956437661
+    },
+    {
+      "at": 39,
+      "lag_samples_48k": 0,
+      "source_output_correlation": 0.998848703232402
+    },
+    {
+      "at": 44,
+      "lag_samples_48k": 0,
+      "source_output_correlation": 0.9991131148396281
+    }
+  ],
+  "source_frame_coordinates": [
+    {
+      "at": 0.7,
+      "native_coordinate_background_roi_correlation": 0.9979145793409061
+    },
+    {
+      "at": 19.7,
+      "native_coordinate_background_roi_correlation": 0.9986148676890612
+    },
+    {
+      "at": 31.7,
+      "native_coordinate_background_roi_correlation": 0.99882931163924
+    }
+  ],
+  "output_lufs": -17.79,
+  "output_true_peak_dbtp": -1.65,
+  "illustration_appearances": 5,
+  "footage_zoom_count": 0,
+  "preflight": {
+    "lint": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 48,
+      "checked": null,
+      "passed": null
+    },
+    "runtime": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": null,
+      "passed": null
+    },
+    "layout": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": null,
+      "passed": null
+    },
+    "motion": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": null,
+      "passed": null
+    },
+    "contrast": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": 22,
+      "passed": 22
+    }
+  },
+  "technical_limits": "ASR compared with phonetic corrections; no direct auditory review claimed. Source preservation does not establish TikTok approval."
+}

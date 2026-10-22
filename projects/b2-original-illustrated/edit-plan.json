@@ -1,0 +1,137 @@
+{
+  "duration": 46.8,
+  "headlines": [
+    [
+      0.15,
+      7.95,
+      "CÂU HỎI THƯỜNG GẶP",
+      "18 TUỔI",
+      "GÓP 15 TRIỆU?",
+      68,
+      "question"
+    ],
+    [
+      9.3,
+      11.87,
+      "GIẤY TỜ",
+      "CĂN CƯỚC",
+      "CÔNG DÂN",
+      62,
+      "id"
+    ],
+    [
+      11.88,
+      13.55,
+      "ĐỘ TUỔI",
+      "TỪ 18 TUỔI",
+      "TRỞ LÊN",
+      62,
+      "age"
+    ],
+    [
+      13.82,
+      15.24,
+      "THU NHẬP",
+      "KHÔNG CẦN",
+      "CHỨNG MINH THU NHẬP",
+      56,
+      "id"
+    ],
+    [
+      15.25,
+      16.66,
+      "NGƯỜI THÂN",
+      "KHÔNG",
+      "THẨM ĐỊNH NGƯỜI THÂN",
+      60,
+      "people"
+    ],
+    [
+      16.83,
+      24.8,
+      "HẠN MỨC CÓ THỂ HỖ TRỢ",
+      "15–50 TRIỆU",
+      "",
+      67,
+      "range"
+    ],
+    [
+      29.88,
+      33.02,
+      "HIỆN CHỈ HỖ TRỢ",
+      "ĐÀ NẴNG",
+      "& QUY NHƠN",
+      67,
+      "pin"
+    ],
+    [
+      34.75,
+      37.89,
+      "KHU VỰC HỖ TRỢ",
+      "2 THÀNH PHỐ",
+      "ĐÀ NẴNG • QUY NHƠN",
+      54,
+      "pin"
+    ],
+    [
+      37.9,
+      40.77,
+      "ĐANG CÓ NHU CẦU?",
+      "LIÊN HỆ",
+      "ĐỂ ĐƯỢC TƯ VẤN",
+      68,
+      "message"
+    ],
+    [
+      40.78,
+      46.8,
+      "HỖ TRỢ HỒ SƠ",
+      "TRỰC TIẾP",
+      "TẠI THÀNH PHỐ BẠN ĐANG Ở",
+      62,
+      "pin"
+    ]
+  ],
+  "illustrations": [
+    [
+      11.0,
+      13.55,
+      0,
+      "Giấy tờ"
+    ],
+    [
+      13.82,
+      16.65,
+      1,
+      "Hồ sơ"
+    ],
+    [
+      29.9,
+      33.05,
+      2,
+      "Địa điểm"
+    ],
+    [
+      37.9,
+      40.76,
+      3,
+      "Liên hệ"
+    ],
+    [
+      41.0,
+      45.2,
+      1,
+      "Hồ sơ trực tiếp"
+    ]
+  ],
+  "source_range": [
+    0,
+    46.8
+  ],
+  "zoom_tweens": [],
+  "censor_intervals": [],
+  "censor_note": "Both recognizers identify góp; vay and nợ xấu were not detected. No unrelated words muted.",
+  "per_video_override": "Latest correction: preserve the full original talking-head video and speech. No footage zoom/crop, no content replacement or trimming. Add small illustrative photos and synchronized effects; prior educational replacement is not the requested edit.",
+  "asset_note": "New transparent illustrative atlas: generic anonymous card, forms, abstract map pins and blank smartphone chat. No real identity data, government insignia, real provider details or approval claims.",
+  "transcript_review": "Zipformer timestamped transcription compared to Whisper turbo in 2 chunks; obvious phonetic errors corrected (người thân, căn cước công dân, Đà Nẵng, Quy Nhơn). Redundant filler shortened in captions. No direct auditory review claimed."
+}
