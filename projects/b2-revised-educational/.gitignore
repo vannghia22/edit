@@ -1,0 +1,5 @@
+.hyperframes/
+node_modules/
+renders/
+__pycache__/
+music-original.wav

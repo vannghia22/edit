@@ -1,0 +1,62 @@
+{
+  "file": "B2_REVISED_EDUCATIONAL.mp4",
+  "bytes": 1213352,
+  "sha256": "bd299037fd5eb617d8c2ea789e1a1c007c8fdd12f5af783a5d8f1aa94d494d6b",
+  "git_blob_sha": "d2538959c1bf8f728ce713f437f83ccb2eef25ec",
+  "duration": 28,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 30,
+  "frames": 840,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "faststart": true,
+  "full_decode": "passed",
+  "audio_lufs": -22.14,
+  "audio_true_peak_dbtp": -8.54,
+  "zoom_count": 0,
+  "original_presenter_speech": false,
+  "original_presenter_footage": false,
+  "policy_status": "Educational editorial alternative; no specific removal category supplied; no guarantee of TikTok approval.",
+  "technical_checks": {
+    "lint": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 5,
+      "checked": null,
+      "passed": null
+    },
+    "runtime": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": null,
+      "passed": null
+    },
+    "layout": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": null,
+      "passed": null
+    },
+    "motion": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": null,
+      "passed": null
+    },
+    "contrast": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0,
+      "checked": 20,
+      "passed": 20
+    }
+  }
+}

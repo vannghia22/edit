@@ -1,0 +1,10 @@
+{
+  "name": "b2-revised-educational",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx hyperframes@0.8.181 preview --background",
+    "check": "npx hyperframes@0.8.181 check",
+    "render": "npx hyperframes@0.8.181 render --output ../../B2_REVISED_EDUCATIONAL.mp4 --quality high --crf 20 --fps 30 --workers 3"
+  }
+}

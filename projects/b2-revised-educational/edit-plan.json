@@ -1,0 +1,65 @@
+{
+  "duration": 28,
+  "format": "educational replacement, text and original instrumental music; no original speech or presenter footage",
+  "scenes": [
+    {
+      "at": 0,
+      "end": 4.35,
+      "label": "TRƯỚC KHI QUYẾT ĐỊNH",
+      "title": "KÝ HỢP ĐỒNG?",
+      "body": "Đừng chỉ nhìn vào số tiền được nhận.",
+      "detail": "Có 3 điều cần kiểm tra trước.",
+      "num": "",
+      "icon": "document"
+    },
+    {
+      "at": 4,
+      "end": 10.35,
+      "label": "01 / CHI PHÍ",
+      "title": "TỔNG TIỀN PHẢI TRẢ",
+      "body": "Đọc lãi suất, các khoản phí và lịch thanh toán.",
+      "detail": "Xem cả điều kiện trả chậm và trả trước hạn.",
+      "num": "01",
+      "icon": "cost"
+    },
+    {
+      "at": 10,
+      "end": 17.35,
+      "label": "02 / ĐƠN VỊ CUNG CẤP",
+      "title": "XÁC MINH THÔNG TIN",
+      "body": "Tên pháp nhân, thông tin liên hệ và giấy phép phù hợp.",
+      "detail": "Đọc hợp đồng trước khi đồng ý.",
+      "num": "02",
+      "icon": "check"
+    },
+    {
+      "at": 17,
+      "end": 24.35,
+      "label": "03 / THÔNG TIN CÁ NHÂN",
+      "title": "GIỮ AN TOÀN GIẤY TỜ",
+      "body": "Chỉ gửi qua kênh đã xác minh.",
+      "detail": "Không đăng công khai ảnh căn cước hoặc mã OTP.",
+      "num": "03",
+      "icon": "shield"
+    },
+    {
+      "at": 24,
+      "end": 28,
+      "label": "TRƯỚC KHI KÝ",
+      "title": "ĐỌC KỸ. HỎI RÕ.",
+      "body": "Lưu 3 điều này để đối chiếu.",
+      "detail": "Thông tin chung, không phải lời mời đăng ký dịch vụ.",
+      "num": "",
+      "icon": "bookmark"
+    }
+  ],
+  "zoom_tweens": [],
+  "removed": [
+    "credit solicitation",
+    "18-year-old borrowing hook",
+    "ID-only / no-income-verification claims",
+    "15–50 million promotional range",
+    "contact/application CTA"
+  ],
+  "limits": "Exact TikTok notice and placement type not yet supplied. No guarantee of moderation approval."
+}
